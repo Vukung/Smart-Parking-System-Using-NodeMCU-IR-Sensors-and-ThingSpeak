@@ -2,12 +2,12 @@
 #include <ESP8266HTTPClient.h>
 
 // Wi-Fi Configuration
-const char* ssid = "1i";
-const char* password = "12345678910";
+const char* ssid = "SSID";
+const char* password = "PASSWORD";
 
 // ThingSpeak API Information
 const char* server = "http://api.thingspeak.com";
-const String apiKey = "EAIVD6YRLVL7EN3V"; // ThingSpeak Write API Key
+const String apiKey = "_____________"; // ThingSpeak Write API Key
 
 // Sensor Pins
 const int sensor1Pin = D0;
